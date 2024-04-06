@@ -99,14 +99,27 @@ body {
     margin-bottom: 1.5rem;
     text-align: center;
   }
-  .marketing h2 {
-    font-weight: 400;
+  h2.featurette-heading {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
   }
   .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
   }
-  
+
+  @media screen and (max-width:768px) {
+  h2.featurette-heading {
+    font-size: 21px;
+    margin-bottom: 0px;
+  }
+  p.lead{
+    font-size: 16px;
+  }
+
+}
   
   /* Featurettes
   ------------------------- */
@@ -141,6 +154,6 @@ body {
   
   @media (min-width: 62em) {
     .featurette-heading {
-      margin-top: 7rem;
+      margin-top: 4rem;
     }
   }
