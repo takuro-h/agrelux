@@ -162,7 +162,12 @@ font-size: 15px;
   img.voice {
     width: 171px;
   }
-  
+
+  .row.voice .col-6 {
+    margin-right: -14px;
+    margin-left: 3px;
+}
+
 }
 
 
