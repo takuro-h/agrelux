@@ -93,6 +93,15 @@ img.agr {
   margin-left: 0px;
 }
 
+.lu-img {
+  text-align: center;
+}
+
+.btn-secondary{
+width: 100%;
+}
+
+
 .img-fluid {
   width: 400px;
   height: 340px;
