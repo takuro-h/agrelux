@@ -89,6 +89,9 @@ img.agr {
   margin-bottom: 12px;
 }
 
+.row{
+  margin-left: 0px;
+}
 
 .img-fluid {
   width: 400px;
