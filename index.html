@@ -28,10 +28,10 @@
           <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">LINE UP</a>
+          <a class="nav-link" href="#lineup">LINE UP</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
+          <a class="nav-link" href="#contact">CONTACT</a>
         </li>
       </ul>
       <!-- <form class="form-inline mt-2 mt-md-0">
@@ -94,7 +94,9 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+  <div class="container marketing" id="lineup">
+
+    <h2 class=”h2lu”>LINE UP</h2>
 
     <!-- Three columns of text below the carousel -->
     <div class="row">
@@ -215,14 +217,83 @@
   </div>
     </section>
 
+    <h2 class=”h2lu”>GALLERY</h2>
+
+    <div class="container text-center">
+  
+      <div class="row gall1">
+        <div class="col-6 col-md-8"><img class="img-fluid2" src="gallery-1.jpg" alt="Generic placeholder image" width="400" ></div>
+        <div class="col-6 col-md-4"><img class="img-fluid2" src="agr-sam02.jpg" alt="Generic placeholder image" width="200" ></div>
+      </div>
+    
+
+      <div class="row gall2">
+        <div class="col-4 col-md-4"><img class="img-fluid2" src="0P0A2056.JPG" alt="Generic placeholder image" width="200" ></div>
+        <div class="col-4 col-md-4"><img class="img-fluid2" src="0P0A7706-2.jpg" alt="Generic placeholder image" width="200" ></div>
+        <div class="col-4 col-md-4"><img class="img-fluid2" src="0P0A7973.JPG" alt="Generic placeholder image" width="200" ></div>
+      </div>
+
+      <div class="row gall3">
+        <div class="col-6"><img class="img-fluid2" src="0P0A794-2.jpg" alt="Generic placeholder image" width="300" ></div>
+        <div class="col-6"><img class="img-fluid2" src="gallery-2.jpg" alt="Generic placeholder image" width="300" ></div>
+      </div>
+    </div>
+
+
+    <section class="contact-sec" id="contact">
+    <h2 class=”h2con”>CONTACT</h2>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">名前</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="山田太郎">
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label">メールアドレス</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="abcd-efg@gmail.com">
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label">問い合わせ内容</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="製品に関する質問等" rows="3"></textarea>
+    </div>
+
+    <p class="contact-btn"> <a class="btn btn-contact" href="#" role="button">送信</a></p>
+
+    </section>
+
 
 
 
   <!-- FOOTER -->
-  <footer class="container">
+  <!-- <footer class="container">
     <p class="float-right"><a href="#">Back to top</a></p>
     <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+  </footer> -->
+
+
+  <footer id="l-footer" class="l-footer">
+    <div class="l-footer-wrap">
+        <a href="#" target="_blank" rel="noopener" class="l-footer-logo"><img src="agr_logo2.png" alt="AGRelux_logo"></a>
+        <nav class="l-fnav">
+            <ul class="l-fnav-contents nav-item">
+                <li class="item nav-link"><a href="#"><span>HOME</span></a></li>
+                <li class="item nav-link"><a href="#"><span>LINE UP</span></a></li>
+                <li class="item nav-link"><a href="#"><span>CONTACT</span></a></li>
+            </ul>
+            <div class="l-fnav-inner">
+              <ul class="l-fnav-sns">
+                  <li class="item -visits"><a href="#/" target="_blank" rel="noopener noreferrer"><img src="sns-icon-1.svg" alt="x" width="22" height="22" class="replace-svg"></a></li>
+                  <li class="item -twitter"><a href="#" target="_blank" rel="noopener noreferrer"><img src="sns-icon-2.svg" alt="tiktok" width="22" height="22" class="replace-svg"></a></li>
+                  <li class="item -instagram"><a href="#" target="_blank" rel="noopener noreferrer"><img src="sns-icon-3.svg" alt="youtube" width="22" height="22" class="replace-svg"></a></li>
+              </ul>
+            </div>
+        </nav>
+        <p class="l-footer-copyright">© 2024 AGRelux</p>
+    </div>
+</footer>
+
+
+
+
+
 </main>
 <script src="../../assets/js/vendor/holder.min.js"></script>
 
